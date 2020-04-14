@@ -1,0 +1,20 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "lite16.png",
+      "default_popup": "popup.html",
+      "default_title": "LiteScan"
+   },
+   "description": "lite scaner for CTF",
+   "icons": {
+      "128": "lite128.png",
+      "16": "lite16.png",
+      "48": "lite48.png"
+   },
+   "manifest_version": 2,
+   "name": "CTF-Scan",
+   "permissions": [ "tabs", "http://*/*", "https://*/*" ],
+   "version": "1.0"
+}
